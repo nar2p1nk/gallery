@@ -3,25 +3,17 @@ html{
     background-color: rgb(61, 50, 50);
     font-family: 'poppins',sans-serif;
 }
-/*
 .main{
-    background-image: url('/home/antagonist/Pictures/wp5705523-anime-lewd-wallpapers2.png') ;
-    background-size: cover;
-    background-position: center;
-    width: 80%;
-    height: 1000px;
-    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows:  repeat(3,30%);
+    grid-gap: 8px;
 }
-.content{
-    position: relative;
-    top: 60%;
-    left: 15%;
-} */
 
 .image-controlled {
     position: relative; 
     overflow: hidden;
-    width: min-content; 
+    width: 100%
   }
 .content {
     overflow: hidden;
@@ -41,7 +33,8 @@ h3{top:50%;left: 2%;}
 h4{margin: 10px 0 0px 0;top:50%;font-weight: 100;}
 
 img{
-      height: 320px;
+      height: 100%;
+      width: 100%;
   }
 
 .main{
