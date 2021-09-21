@@ -42,10 +42,13 @@ html{
 h3{top:50%;left: 2%;}
 h4{margin: 10px 0 0px 0;top:50%;font-weight: 100;}
 
-img{
+.pic{
+/* position: relative; */
+display: block;
 height: 100%;
-margin: auto;
-align-self: center;
+margin-left: auto;
+margin-right:auto;
+/* align-self: center; */
 }
 
 .image-controlled:hover .content{
